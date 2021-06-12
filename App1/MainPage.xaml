@@ -1,0 +1,19 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="App1.MainPage">
+
+    <StackLayout>
+        <Label Text="Descubrir" TextColor="Black" FontSize="24" FontAttributes="Bold" Margin="10"/>
+
+        <Frame HeightRequest="280" WidthRequest="180" BackgroundColor="Wheat" Padding="1" CornerRadius="10"
+               HasShadow="True" Margin="10" HorizontalOptions="CenterAndExpand">
+
+            <StackLayout>
+                <Image Source="https://images.pexels.com/photos/1666021/pexels-photo-1666021.jpeg" Aspect="AspectFill"></Image>
+            </StackLayout>
+
+        </Frame>
+    </StackLayout>
+
+</ContentPage>
